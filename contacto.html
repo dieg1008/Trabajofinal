@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TransportesX</title>
+    <title>DSMstyle</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400;1,700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/transportes.css">
     <link rel="stylesheet" href="./css/estilos.css">
- <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/normalize.css">
 </head>
+
 <body>
     <header>
         <div class="holder">
@@ -20,63 +24,58 @@
             <h1>DMstyle</h1>
         </div>
     </header>
+
     <nav>
         <div class="holder">
-        <ul>
-            <li><a  class=activo href="index.html">Home</a></li>
-            <li><a href="nosotros.html">Nosotros</a></li>
-            <li><a href="envios.html">Envios</a></li>
-            <li><a href="galeria.html">Galeria</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
+            <ul>
+                <li><a class=activo href="index.html">Home</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="envios.html">Envios</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
 
-    </div>
+        </div>
     </nav>
-</header>
-</section>
 
-<div class="mb-3">
-    <label for="formGroupExampleInput" class="form-label">Nombre</label>
-    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Escriba aqui">
-  </div>
-  <div class="mb-3">
-    <label for="formGroupExampleInput" class="form-label">Numero de telefono</label>
-    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Escriba aqui">
-    <div class="mb-3">
-        <label for="formGroupExampleInput" class="form-label">Email</label>
-        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Escriba aqui">
-      </div>
-      <div class="mb-3">
-        <label for="formGroupExampleInput2" class="form-label">Prenda por la que consulta</label>
-        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Escriba aqui">
-      </div>
-      <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-        <label class="btn btn-outline-primary" for="btnradio1">Enviar</label>
-  </div>
-  </div>
-<div class="datos">
-    <h2>Medios de contacto</h2>
-    <p>"¡No te quedes sin tu estilo favorito! Consulta nuestro stock en tiempo real y asegura tu prenda deseada. Nuestra moda está lista para ser parte de tu guardarropa. ¡Descubre la disponibilidad y haz tu pedido ahora mismo!"</p>
-    <ul>
-        <li>Telefono: 1161612770</li>
-        <li>Mail: Dsmoda@gmail.com </li>
-        <li>Twitter: @dsmoda</li>
-    </ul>
-</div>
-    <footer>
-        <p>Diseñado por Diego Miño - &copy;2023</p>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <div class="container">
+        <form class="form">
+            <h3>Escribenos</h3>
+            <p>Facilitanos tus datos para poder contactarte y guardar stock de las prendas</p>
+
+            <label for="nombre">Escribe tu nombre</label>
+            <input type="text" id="nombre" class="box">
+
+            <label for="correo">Escribe tu correo</label>
+            <input type="email" id="correo" class="box">
+
+            <label for="mensaje">Prenda por la que consulta</label>
+            <textarea class="box" id=mensaje cols="30" rows="10"></textarea>
+
+            <input type="submit" value="enviar" class="submit">
+
+        </form>
+       <div class="datos">
+                <h2>Medios de contacto</h2>
+                <p>"¡No te quedes sin tu estilo favorito! Consulta nuestro stock en tiempo real y asegura tu prenda
+                    deseada. Nuestra moda está lista para ser parte de tu guardarropa. ¡Descubre la disponibilidad y haz
+                    tu pedido ahora mismo!"</p>
+                <ul>
+                    <li>Telefono: 1161612770</li>
+                    <li>Mail: Dsmoda@gmail.com </li>
+                    <li>Twitter: @dsmoda</li>
+                </ul>
+               
+
+                        <footer class="dsi">
+                            <p>Diseñado por Diego Miño - &copy;2023</p>
+                          
+                        </footer>
+                        <script
+                            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+                            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+                            crossorigin="anonymous"></script>
 </body>
-<a href="https://api.whatsapp.com/send?phone=1161612770&text=Hola,%20me%20gustaría%20obtener%20más%20información" target="_blank">
-    <img src="./img/wassap.jpg" width="100" alt="Logo">
-    <a href="https://www.instagram.com/dsmoda/" target="_blank">
-        <img src="./img/ig.jpg" width="100" alt="Logo">
-        <a href="Dsmoda@gmail.com">Dsmoda@gmail.com</a>
 
 
-      </a>    
-
-  </a>
 </html>
